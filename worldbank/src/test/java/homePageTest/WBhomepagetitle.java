@@ -17,8 +17,6 @@ public class WBhomepagetitle extends CommonAPI {
         driver.manage().window().maximize();
         System.out.println(driver.getTitle());
 
-        Actions menue11 = new Actions(driver);
-        menue11.moveToElement(driver.findElement(By.cssSelector(" "))).perform();
 
     }
 }
